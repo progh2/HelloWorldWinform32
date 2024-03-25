@@ -61,8 +61,10 @@
             this.ClientSize = new System.Drawing.Size(828, 655);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form111111";
+            this.Text = "3200 함기훈 3-2 급훈";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
